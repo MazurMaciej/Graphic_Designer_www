@@ -1,13 +1,76 @@
 @import url(reset.css);
 
-
-#wrapper {
-    background-color: #fec106;
-
+html {
+    font-family: 'Playfair Display', serif;
+    font-size: 62.5%;
+    color: #48504e;
 }
 
-.background {
-    
+.orange {color: #ffc107; }
+.grey {color: #48504e; }
+.lightgrey {color: #d4d4d3;}
 
+h1 {
+    font-size: 3.7rem; 
+    background-color: rgba(255, 255, 255, .9);
+    padding: 3.5rem;
+    margin: 4.0rem;
+    display: inline-block;
+    border-top-left-radius: 2rem;
 }
 
+
+h2 {font-size: 2.7rem;}
+
+h3 {font-size: 3.1rem;}
+
+h3, h2 {
+    color: #fff;
+    background-color: #48504e;
+    padding: 1.5rem;
+    display: inline-block;
+}
+
+p  {font-size: 1.8rem; line-height: 1.55; } 
+
+footer p {font-size: 1.4rem; }
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.dot {
+    width: 1rem;
+    height: 1rem;
+    background-color: #48504e;
+    margin: 1rem auto;
+    border-radius: 2rem;
+ }
+
+.summary {font-size: 2.4rem;
+          font-style: italic;        
+}
+
+.deleted {
+    text-decoration: line-through;
+}
+
+.button {
+    border: dashed 0.1rem #000;
+    font-size: 3rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+ul {font-size: 2.4rem; line-height: 1.75; }
+
+body {
+    background-color: #ffc107; 
+}
